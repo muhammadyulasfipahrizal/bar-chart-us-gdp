@@ -1,0 +1,22 @@
+#title {
+    text-anchor: middle;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .tick {
+    font-size: 12px;
+  }
+  .bar {
+    fill: steelblue;
+  }
+  .bar:hover {
+    fill: white;
+    cursor: pointer;
+  }
+  #tooltip {
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: none;
+  }
